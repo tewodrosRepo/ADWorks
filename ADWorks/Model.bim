@@ -414,6 +414,13 @@
               ]
             }
           }
+        ],
+        "measures": [
+          {
+            "name": "ProductCount",
+            "expression": "DISTINCTCOUNTNOBLANK('Product'[ProductKey])",
+            "formatString": "#,0"
+          }
         ]
       },
       {
