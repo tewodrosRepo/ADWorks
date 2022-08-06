@@ -337,6 +337,7 @@
           {
             "name": "FinishedGoodsFlag",
             "dataType": "boolean",
+            "isHidden": true,
             "sourceColumn": "FinishedGoodsFlag"
           },
           {
@@ -377,6 +378,7 @@
           {
             "name": "DaysToManufacture",
             "dataType": "int64",
+            "isHidden": true,
             "sourceColumn": "DaysToManufacture"
           },
           {
@@ -387,6 +389,7 @@
           {
             "name": "DealerPrice",
             "dataType": "decimal",
+            "isHidden": true,
             "sourceColumn": "DealerPrice"
           },
           {
@@ -417,6 +420,7 @@
           {
             "name": "EndDate",
             "dataType": "dateTime",
+            "isHidden": true,
             "sourceColumn": "EndDate"
           },
           {
