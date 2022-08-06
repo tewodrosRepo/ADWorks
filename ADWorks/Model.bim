@@ -175,6 +175,16 @@
               ]
             }
           }
+        ],
+        "measures": [
+          {
+            "name": "TotalOrder",
+            "expression": "DISTINCTCOUNTNOBLANK(InternetSales[OrderDateKey])"
+          },
+          {
+            "name": "TotalSales",
+            "expression": "SUM(InternetSales[SalesAmount])"
+          }
         ]
       },
       {
