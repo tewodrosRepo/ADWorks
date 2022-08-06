@@ -1,7 +1,8 @@
 {
-  "name": "SemanticModel",
+  "name": "Test",
   "compatibilityLevel": 1500,
   "model": {
+    "name": "Test",
     "culture": "en-US",
     "dataSources": [
       {
@@ -16,7 +17,6 @@
           "authentication": null,
           "query": null
         },
-        "options": {},
         "credential": {
           "AuthenticationKind": "Windows",
           "Username": "pc\\tady",
@@ -659,6 +659,5 @@
         "value": "600"
       }
     ]
-  },
-  "id": "SemanticModel"
+  }
 }

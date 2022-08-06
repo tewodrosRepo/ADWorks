@@ -1,0 +1,7 @@
+C:\Users\tady\Source\Repos\ADWProd\ADWorks\bin\Model.asdatabase
+C:\Users\tady\Source\Repos\ADWProd\ADWorks\bin\Model.deploymenttargets
+C:\Users\tady\Source\Repos\ADWProd\ADWorks\bin\Model.deploymentoptions
+C:\Users\tady\Source\Repos\ADWProd\ADWorks\obj\Development\ADWorks.smproj.CoreCompileInputs.cache
+C:\Users\tady\Source\Repos\ADWProd\ADWorks\obj\Development\Model.asdatabase
+C:\Users\tady\Source\Repos\ADWProd\ADWorks\obj\Development\Model.deploymentoptions
+C:\Users\tady\Source\Repos\ADWProd\ADWorks\obj\Development\Model.deploymenttargets
