@@ -423,6 +423,13 @@
             "name": "Status",
             "dataType": "string",
             "sourceColumn": "Status"
+          },
+          {
+            "type": "calculated",
+            "name": "Size Staus",
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "expression": " SWITCH('Product'[Class],\"H\",\"High\",\"M\",\"Midiium\",\"L\",\"Low\",\"NA\")"
           }
         ],
         "partitions": [

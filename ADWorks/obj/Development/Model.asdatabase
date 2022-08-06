@@ -568,43 +568,6 @@
             }
           }
         ]
-      },
-      {
-        "name": "InternetSalesReason",
-        "columns": [
-          {
-            "name": "SalesOrderNumber",
-            "dataType": "string",
-            "sourceColumn": "SalesOrderNumber"
-          },
-          {
-            "name": "SalesOrderLineNumber",
-            "dataType": "int64",
-            "sourceColumn": "SalesOrderLineNumber"
-          },
-          {
-            "name": "SalesReasonKey",
-            "dataType": "int64",
-            "sourceColumn": "SalesReasonKey"
-          }
-        ],
-        "partitions": [
-          {
-            "name": "Partition",
-            "dataView": "full",
-            "source": {
-              "type": "m",
-              "expression": [
-                "let",
-                "    Source = #\"SQL/pc\\prod;AdventureWorksDW2016\",",
-                "    dbo_FactInternetSalesReason = Source{[Schema=\"dbo\",Item=\"FactInternetSalesReason\"]}[Data],",
-                "    #\"Removed Other Columns\" = Table.SelectColumns(dbo_FactInternetSalesReason,{\"SalesOrderNumber\", \"SalesOrderLineNumber\", \"SalesReasonKey\"})",
-                "in",
-                "    #\"Removed Other Columns\""
-              ]
-            }
-          }
-        ]
       }
     ],
     "relationships": [
